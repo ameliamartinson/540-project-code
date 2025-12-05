@@ -91,6 +91,8 @@ def save_model(p):
     model.add_module('relu2',nn.ReLU())
     model.add_module('pool2',nn.MaxPool2d(kernel_size=2))
 
+    torch.save(model.state_dict(), "test.pth")
+
     model.add_module('flatten',nn.Flatten())
 
     x = torch.ones((4,3,128,128))
@@ -103,7 +105,7 @@ def save_model(p):
     model.to(device)
 
     # %%
-    num_epochs = 5 
+    num_epochs = 10
 
     loss_history_train = np.zeros(num_epochs)
     accuracy_history_train = np.zeros(num_epochs)
@@ -146,5 +148,5 @@ def save_model(p):
     torch.mps.empty_cache()
 
 
-for i in range(83,101):
+for i in range(0,101):
     save_model(i/1000)
