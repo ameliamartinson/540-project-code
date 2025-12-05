@@ -15,7 +15,10 @@ pmem = True if device == "cuda" else False
 print(device)
 
 # %%
-transform = transforms.Compose([transforms.ToTensor()])
+transform = transforms.Compose([
+    transforms.Grayscale(num_output_channels=1),
+    transforms.ToTensor(),
+    ])
 images = torchvision.datasets.ImageFolder("coil-20-proc", transform=transform)
 print(images.classes)
 train_images = DataLoader(images, batch_size=72, shuffle=True, pin_memory=pmem)
@@ -74,7 +77,7 @@ def save_model(p):
     model.add_module(
         'conv1',
         nn.Conv2d(
-            in_channels=3,out_channels=32,
+            in_channels=1,out_channels=32,
             kernel_size=5,padding=2
         )
     )
@@ -91,15 +94,17 @@ def save_model(p):
     model.add_module('relu2',nn.ReLU())
     model.add_module('pool2',nn.MaxPool2d(kernel_size=2))
 
+    model.add_module('avgpool',nn.AdaptiveAvgPool2d((4,4)))
+
     model.add_module('flatten',nn.Flatten())
 
-    x = torch.ones((4,3,128,128))
+    x = torch.ones((4,1,128,128))
     dims = model(x).shape
 
-    model.add_module('fc1',nn.Linear(dims[1], 1024))
+    model.add_module('fc1',nn.Linear(dims[1], 512))
     model.add_module('relu3', nn.ReLU())
     model.add_module('dropout',nn.Dropout(p=0.5))
-    model.add_module('fc2',nn.Linear(1024,20))
+    model.add_module('fc2',nn.Linear(512,20))
     model.to(device)
 
     # %%
@@ -117,7 +122,7 @@ def save_model(p):
     # %%
     torch.manual_seed(540)
 
-    noise_std = p
+    noise_std = 0.001
 
     for epoch in range(num_epochs):
         model.train()
@@ -140,11 +145,11 @@ def save_model(p):
             accuracy_history_valid[epoch] += is_correct.sum()
 
         model.eval()
-        print(epoch)
+        #print(epoch)
 
     torch.save(model.state_dict(), "prebuilts/coil20_{:.3f}.pth".format(noise_std))
     torch.mps.empty_cache()
 
-
 for i in range(0,101):
+    print(i)
     save_model(i/1000)
