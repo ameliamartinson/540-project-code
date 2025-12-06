@@ -1,6 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1764885641.94216 "/Users/amelia/repos/540-project-code/writeup.tex" "writeup.pdf" "writeup" 1764885642.25206 0
-  "/Users/amelia/repos/540-project-code/writeup.tex" 1764885640.27834 109 1372efe3bea15a4d08b16f8b5f843b15 ""
+["pdflatex"] 1764979239.55278 "/Users/amelia/repos/540-project-code/writeup/writeup.tex" "writeup.pdf" "writeup" 1764979239.84861 0
+  "/Users/amelia/repos/540-project-code/writeup/writeup.tex" 1764979239.35817 125 6c8977561678d091e8ee408d0af6d35f ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
@@ -10,8 +13,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741762434 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "writeup.aux" 1764885642.21669 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "writeup.tex" 1764885640.27834 109 1372efe3bea15a4d08b16f8b5f843b15 ""
+  "writeup.aux" 1764979239.82964 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "writeup.tex" 1764979239.35817 125 6c8977561678d091e8ee408d0af6d35f ""
   (generated)
   "writeup.aux"
   "writeup.log"
