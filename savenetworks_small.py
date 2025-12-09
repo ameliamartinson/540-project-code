@@ -186,5 +186,8 @@ def run_and_save(p):
               f"val_accuracy: {accuracy_history_valid[epoch]}")
 
     torch.save(model.state_dict(), "prebuilts/coil20_{:.3f}.pth".format(noise_std))
-    torch.cuda.empty_cache()
+    if device == "cuda":
+        torch.cuda.empty_cache()
+    if device == "mps":
+        torch.mps.empty_cache()
 
