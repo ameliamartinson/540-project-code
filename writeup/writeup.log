@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 DEC 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 DEC 2025 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -109,39 +109,61 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count284
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count285
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
+\l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box54
 ) (./writeup.aux)
 \openout1 = `writeup.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen153
+\scratchcounter=\count287
+\scratchdimen=\dimen161
 \scratchbox=\box55
-\nofMPsegments=\count284
-\nofMParguments=\count285
+\nofMPsegments=\count288
+\nofMParguments=\count289
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen154
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen162
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -149,54 +171,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 <duck.png, id=1, 237.0456pt x 268.1217pt>
 File: duck.png Graphic file (type png)
 <use duck.png>
-Package pdftex.def Info: duck.png  used on input line 15.
-(pdftex.def)             Requested size: 237.045pt x 268.12105pt.
+Package pdftex.def Info: duck.png  used on input line 21.
+(pdftex.def)             Requested size: 155.24895pt x 175.61076pt.
 <duck-convertible.png, id=3, 237.0456pt x 268.1217pt>
 File: duck-convertible.png Graphic file (type png)
 <use duck-convertible.png>
-Package pdftex.def Info: duck-convertible.png  used on input line 19.
-(pdftex.def)             Requested size: 237.045pt x 268.12105pt.
-
-
-[1
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./duck.png>]
-<delta_x.png, id=17, 419.166pt x 330.9966pt>
+Package pdftex.def Info: duck-convertible.png  used on input line 27.
+(pdftex.def)             Requested size: 155.24895pt x 175.61076pt.
+<delta_x.png, id=4, 419.166pt x 330.9966pt>
 File: delta_x.png Graphic file (type png)
 <use delta_x.png>
-Package pdftex.def Info: delta_x.png  used on input line 30.
+Package pdftex.def Info: delta_x.png  used on input line 44.
 (pdftex.def)             Requested size: 419.16498pt x 330.99577pt.
 
-Overfull \hbox (89.16498pt too wide) in paragraph at lines 30--31
+Overfull \hbox (89.16498pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
 
 
-[2 <./duck-convertible.png>]
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-[3 <./delta_x.png>] (./writeup.aux)
+ <./duck.png> <./duck-convertible.png>]
+
+[2 <./delta_x.png>] (./writeup.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2030 strings out of 473190
- 31161 string characters out of 5715801
- 422651 words of memory out of 5000000
- 25308 multiletter control sequences out of 15000+600000
- 559945 words of font info for 40 fonts, out of 8000000 for 9000
+ 3500 strings out of 473190
+ 59411 string characters out of 5715801
+ 451108 words of memory out of 5000000
+ 26769 multiletter control sequences out of 15000+600000
+ 560244 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,333b,113s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on writeup.pdf (3 pages, 377014 bytes).
+ 57i,8n,65p,333b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on writeup.pdf (2 pages, 388450 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

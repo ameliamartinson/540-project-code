@@ -2,21 +2,35 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \begin{document}
 \textbf{Adversarial attack generation}
 
 We trained the network with a loss function that we can call $J(\theta, x, y)$, performing gradient descent with respect to the parameters $\theta$. We can just as easily, especially with PyTorch, compute the gradient with respect to the input $x$. 
 If we allow our input to be an image from the training data, which results in a correct output with nearly 100\% accuracy, we can perform gradient \textit{ascent} with the goal of finding the most similar issue that is wrongly detected as a different item.
-This can be represented as follows: 
-\[ x_{\text{step}} = x + \delta \nabla_x J(\theta, x,  y) \]
-To see this in action, we will apply it to the first image from the dataset:
+This can be represented as: 
+$x_{\text{step}} = x + \delta \nabla_x J(\theta, x,  y)$.
+To see this in action, we apply it to the first image from the dataset:
 
-\includegraphics{duck.png}
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{duck.png}
+    \caption{Original image}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{duck-convertible.png}
+    \caption{Image after attack}
+\end{subfigure}
+\end{figure}
 
 After applying the attack, we get the following image and prediction.
 
-\includegraphics{duck-convertible.png}
 
 To the human eye, the images look almost identical, however the neural network was completely tricked.
 The obvious followup question is: how can we make the neural network more resistant to this attack?
